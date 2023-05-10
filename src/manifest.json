@@ -3,8 +3,16 @@
   "description": "Filter table by entered text.",
   "version": "0.1",
   "manifest_version": 3,
+  "permissions": ["activeTab", "scripting", "storage"],
+  "options_page": "options/options.html",
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "24": "images/icon24.png",
+      "32": "images/icon32.png"
+    },
+    "default_title": "Filter tables by entered text."
   },
   "commands": {
     "_execute_action": {
@@ -15,4 +23,3 @@
     }
   }
 }
-

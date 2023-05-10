@@ -1,6 +1,6 @@
 {
   "name": "TableFilter",
-  "description": "Filter table by entered text."
+  "description": "Filter table by entered text.",
   "version": "0.1",
   "manifest_version": 3,
   "action": {
